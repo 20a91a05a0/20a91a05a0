@@ -1,0 +1,8 @@
+#using if
+a=8
+If a<10:
+  Print('a is less than 10')
+  Print('hi.....')
+  
+'''output: a is less than 10
+          Hi........'''
