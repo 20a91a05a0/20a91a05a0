@@ -1,0 +1,10 @@
+#program for wether the number is even or odd
+
+a=raw_input('enter number')
+ If a%2=0:
+     Print("number is even")
+ else: 
+    Print("number is odd")
+#expected 
+'''output:enter number 6
+         number is even
