@@ -1,0 +1,15 @@
+#program for person elible for vote or not
+Print
+name=raw_input('enter name')
+age=int(raw_input('enter age'))
+If age<18:
+   Print("Hi",name)
+   Print(" you are not eligible for vote")
+Else:
+   Print("Hello",name)
+   Print("eligible for vote")
+'''output:
+Enter name Ram
+Enter age 19
+Hello Ram 
+Eligible for vote
