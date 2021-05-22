@@ -1,0 +1,24 @@
+#check whether given number is divisible by 2 or
+3 or 4 or 5
+
+a=int(raw_input('enter a number'))
+If a%2==0:
+    Print('a is divisible by 2')
+Elif a%3==0:
+    Print('a is divisible by 3')
+Elif a%4==0:
+    Print('a is divisible by 4')
+Elif a%5==0:
+    Print('a is divisible by 5')
+Else:
+  Print('a is not divisible by 2 or 3 or 4 or 5')
+ 
+
+'''expected output:
+             Enter a number 16
+             16 is divisible by 2 '''
+        
+'''
+Output:
+     Enter a number 9
+     9 is divisible by 3 '''
