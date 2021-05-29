@@ -1,0 +1,18 @@
+#reverse of a given number using while
+ 
+n=int(raw_input('enter a number'))
+Sum=0
+
+While (n!=0)
+r=n%10
+Sum=sum*10+r
+n=n/10
+
+Print("reverse of %d is %d"%(n,sum))
+
+'''
+Expected output:
+  enter a number: 67895
+    reverse of 67895 is 59876
+ 
+'''
